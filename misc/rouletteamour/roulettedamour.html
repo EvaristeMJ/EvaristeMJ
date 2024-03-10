@@ -6,6 +6,36 @@
     <title>Roulette de l'amour</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<style>
+    #roulette {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .spinner {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #000 10%, transparent 10%), linear-gradient(to right, #000 20%, transparent 20%), linear-gradient(to right, #000 30%, transparent 30%), linear-gradient(to right, #000 40%, transparent 40%), linear-gradient(to right, #000 50%, transparent 50%), linear-gradient(to right, #000 60%, transparent 60%), linear-gradient(to right, #000 70%, transparent 70%), linear-gradient(to right, #000 80%, transparent 80%), linear-gradient(to right, #000 90%, transparent 90%);
+    background-size: 20px 20px;
+    animation: spin 3s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(3600deg);
+    }
+  }
+</style>
 <body>
 <button id="spin-button"> Découvrez votre amour</button>
 <div id="roulette"></div>
