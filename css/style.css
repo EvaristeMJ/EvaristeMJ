@@ -1,15 +1,8 @@
 /* style.css */
 body {
     font-family: 'Times New Roman', Times, serif;
-    margin: 40px 0;
     font-size: 20px;
     padding: 0;
-}
-
-header {
-    background-color: hsl(213, 47%, 62%);
-    color: #fff;
-    padding: 20px;
 }
 
 a {
@@ -17,76 +10,30 @@ a {
     text-decoration: none;
 }
 
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
-    font-size: 20px;
-    padding: 0 200px;
+    font-size: 18px;
     text-align: justify;
 }
 
-footer {
-    background-color: hsl(213, 57%, 53%);
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-    position: relative; /* Ajout pour positionner le sous-menu */
-}
-
-nav ul li ul {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            background-color: #ffffffe8;
-            padding: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-nav ul li:hover ul {
-    display: block;
-}
-
-nav ul li ul li {
-    display: block;
-}
-
-nav ul li ul li a {
-    display: block;
-    color: hsl(213, 57%, 53%);
-    text-decoration: none;
-}
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
-}
-h1 {
-    color: #333;
-}
-
-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
-
-button:hover {
-    background-color: #0056b3;
+.resume {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0% 25%;
+    text-align: justify;
+    
 }
