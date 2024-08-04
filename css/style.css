@@ -48,3 +48,9 @@ main {
     display: flex;
     align-items: center;
 }
+.paragraph {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0% 25%;
+    text-align: justify;
+}
