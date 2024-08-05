@@ -54,7 +54,7 @@ main {
     border-radius: 5px; /* Optional: rounded corners */
 }
 .grey-background {
-    background-color: #ff0000; /* Light grey background */
+    background-color: #f0f0f0; /* Light grey background */
     padding: 20px; /* Add some padding for better readability */
     border-radius: 5px; /* Optional: rounded corners */
 }

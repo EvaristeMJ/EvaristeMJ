@@ -1,0 +1,13 @@
+.boxcontainer {
+    text-align: center;
+    margin-top: 20px;
+}
+#poemContainer {
+    text-align: justify;
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
