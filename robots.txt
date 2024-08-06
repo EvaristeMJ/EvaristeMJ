@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /pdf/
+Disallow: /misc/
+Disallow: /css/
+Sitemap: https://evaristemj.github.io/sitemap.xml
