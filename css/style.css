@@ -36,19 +36,18 @@ main {
     font-size: 20px;
     padding: 0% 25%;
     text-align: justify;
+    border: 1px solid #8d8d8d;
     
 }
 .image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin-right: 20px;
     margin-left: 40px;
 }
 .container{
     display: flex;
     align-items: center;
-    /* add a contour */
-    border: 1px solid #8d8d8d;
 }
 .paragraph {
     background-color: #afafaf; /* Light grey background */
