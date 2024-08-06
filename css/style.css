@@ -47,6 +47,8 @@ main {
 .container{
     display: flex;
     align-items: center;
+    /* add a contour */
+    border: 1px solid #8d8d8d;
 }
 .paragraph {
     background-color: #afafaf; /* Light grey background */
