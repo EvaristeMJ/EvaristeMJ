@@ -3,6 +3,8 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     padding: 0;
+    background-color: #fafae8;
+
 }
 
 header {
@@ -10,6 +12,37 @@ header {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
     margin: 0;
     padding: 0;
 }
@@ -38,30 +71,29 @@ main {
     
 }
 .image {
-    width: 300px;
-    height: 300px;
-    margin-right: 20px;
-    margin-left: 40px;
-    border-radius: 50%;
-    border : 2px solid #8d8d8d;
+    width: 30%;
+    height: auto;
+    margin: 2%;
 }
 .box{
     border: 1px solid #8d8d8d;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 20px;
     margin: 20px;
-    background-color: #f0f0f0;
+    background-color: #e8fdff6f;
 }
 .boxintro{
     border: 1px solid #8d8d8d;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 5% 0%;
-    margin: 20px;
-    background-color: #f0f0f0;
+    background-color: #e8fdff6f;
 }
 .container{
+    margin-top: 10%;
+    margin-bottom: 5%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .paragraph {
     background-color: #afafaf; /* Light grey background */
@@ -77,6 +109,7 @@ main {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     padding: 0% 10%;
+    max-width: 500px;
     text-align: justify;
 }
 /* End of style.css */
