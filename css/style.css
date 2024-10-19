@@ -3,8 +3,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     padding: 0;
-    background-color: #fafae8;
-
+    background-color: #ebebb6;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 header {
@@ -67,6 +70,7 @@ main {
     margin: 0;
     font-size: 18px;
     text-align: justify;
+    background-color: #fafae8;
 }
 
 .resume {
