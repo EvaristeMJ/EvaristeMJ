@@ -83,8 +83,8 @@ main {
 }
 .image {
     width: 30%;
-    height: auto;
-    margin: 2%;
+    height: 10%;
+    margin: 10%;
     
 }
 .box{
@@ -99,6 +99,7 @@ main {
     border-radius: 2px;
     padding: 5% 0%;
     background-color: #e8fdff6f;
+    margin : 20px;
     
 }
 .container{
@@ -115,7 +116,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 .paragraph {
     background-color: #afafaf; /* Light grey background */
